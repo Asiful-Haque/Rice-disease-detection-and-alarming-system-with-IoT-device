@@ -1,0 +1,13 @@
+train: /home/sourab/Documents/rice detection/train/images
+val: /home/sourab/Documents/rice detection/valid/images
+test: /home/sourab/Documents/rice detection/test/images
+
+nc: 4
+names: ["brownspotrice", "healthyrice", "hispa rice", "leafblast rice"]
+
+roboflow:
+    workspace: university-of-singaperbangsa-karawang-mpat6
+    project: rice-detection-hnyxv
+    version: 2
+    license: Public Domain
+    url: https://universe.roboflow.com/university-of-singaperbangsa-karawang-mpat6/rice-detection-hnyxv/dataset/2
